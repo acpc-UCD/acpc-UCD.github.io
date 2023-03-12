@@ -88,6 +88,11 @@ h6,
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+#header .logo {
+  display: flex;
+  flex-direction: row;
+}
+
 #header .logo h1 {
   font-size: 30px;
   margin: 0;
@@ -104,8 +109,9 @@ h6,
 
 #header .logo img {
   padding: 0;
-  margin: 0;
   max-height: 40px;
+  margin-right: 25%;
+  border-radius: 15px;
 }
 
 #main {
@@ -272,7 +278,7 @@ h6,
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 64, 57, 0.9);
+  background: rgba(57, 78, 58, 0.9);
   transition: 0.3s;
 }
 
@@ -478,7 +484,7 @@ section {
   padding-bottom: 0;
   line-height: 1px;
   margin-bottom: 15px;
-  color: #c2b7b1;
+  color: #b2c2b1;
 }
 
 .section-title p {
@@ -506,7 +512,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #fef5f1;
+  background-color: #f1fef1;
   min-height: 40px;
 }
 
@@ -531,7 +537,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #6c757d;
+  color: #6c7d6d;
   content: "/";
 }
 
@@ -568,7 +574,7 @@ section {
 .about i {
   font-size: 48px;
   margin-top: 15px;
-  color: #f39e7a;
+  color: #7ef37a;
 }
 
 .about p {
@@ -636,7 +642,7 @@ section {
   overflow: hidden;
   margin: 0 0 40px 0;
   background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  box-shadow: 0 10px 29px 0 rgba(68, 144, 71, 0.1);
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
   text-align: center;
@@ -717,7 +723,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(122, 105, 96, 0.6);
+  background: rgba(97, 122, 96, 0.6);
   position: absolute;
   left: 100%;
   right: 0;
@@ -836,7 +842,7 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(122, 105, 96, 0.08);
+  box-shadow: 0px 0 30px rgba(96, 122, 96, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -893,7 +899,7 @@ RULES
 }
 
 .faq .faq-list li {
-  border-bottom: 1px solid #eae7e5;
+  border-bottom: 1px solid #e5eae5;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -908,7 +914,7 @@ RULES
   font-weight: 600;
   padding-left: 25px;
   cursor: pointer;
-  color: #c54811;
+  color: #20c511;
   transition: 0.3s;
 }
 
@@ -929,7 +935,7 @@ RULES
 }
 
 .faq .faq-list .collapsed {
-  color: #343a40;
+  color: #344034;
 }
 
 .faq .faq-list .collapsed:hover {
@@ -962,7 +968,7 @@ RULES
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
+  background: #344034;
   position: relative;
   overflow: hidden;
 }
@@ -1006,7 +1012,7 @@ RULES
   bottom: 0;
   width: 50px;
   transition: left ease-in-out 0.3s;
-  background: rgba(78, 64, 57, 0.6);
+  background: rgba(57, 78, 60, 0.6);
   text-align: center;
 }
 
@@ -1027,7 +1033,7 @@ RULES
 }
 
 .team .member:hover .member-info {
-  background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(0deg, rgba(57, 78, 58, 0.95) 0%, rgba(59, 78, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
 }
@@ -1103,7 +1109,7 @@ RULES
   float: left;
   width: 44px;
   height: 44px;
-  background: #fdf1ec;
+  background: #eefdec;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1123,7 +1129,7 @@ RULES
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #ab9d95;
+  color: #98ab95;
 }
 
 .contact .info .email p {
@@ -1137,7 +1143,7 @@ RULES
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
+  background: #333333;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1177,7 +1183,7 @@ RULES
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #0ded2b;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1313,7 +1319,7 @@ RULES
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #c54811;
+  background: #20c511;
 }
 
 #footer .footer-top {
@@ -1361,7 +1367,7 @@ RULES
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #f39e7a;
+  color: #98f37a;
   font-size: 18px;
   line-height: 1;
 }
