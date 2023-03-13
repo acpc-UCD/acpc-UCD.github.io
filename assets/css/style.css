@@ -603,6 +603,11 @@ section {
   width: 20%;
 }
 
+.img-team {
+  width: max(30vw, min(100vw, 300px));
+}
+
+
 @media (max-width: 575px) {
   .prizes{
     flex-direction: column;
